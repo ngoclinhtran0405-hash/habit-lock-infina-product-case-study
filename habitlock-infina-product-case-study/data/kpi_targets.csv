@@ -1,0 +1,5 @@
+metric,definition,jul_2025,aug_2025,sep_2025,oct_2025,nov_2025,dec_2025
+Active-Trust Flow Ratio,(savings deposits + investment deposits) / total withdrawals to bank,65%,68%,71%,74%,76%,78%
+Adherence Rate,1 - (impulsive withdrawals / savings withdrawals),5%,10%,20%,35%,42%,50%
+AI Suggestion Acceptance Rate,orders placed via "Follow AI suggestion" / total AI suggestions,12%,13%,15%,17%,19%,20%
+TA Acquisition Rate,target-audience users acquired / total reachable target audience,30%,31%,33%,38%,42%,45%

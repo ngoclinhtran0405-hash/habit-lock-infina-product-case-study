@@ -1,0 +1,16 @@
+# Regulatory and risk notes (to verify, not legal advice)
+
+I am a student, not a lawyer, and I do not know Infina's licences or contracts. These are the questions a real launch would need answered before building. Each item says what the feature does, why it may be sensitive, and who should confirm it. Legal references are pointers to check against current text, not conclusions.
+
+| # | Feature | Question | Why it matters | Mitigation in the design | Who confirms |
+|---|---|---|---|---|---|
+| 1 | Pause & Reflect before withdrawal | Is this a soft prompt or an actual restriction on redeeming? | Investors in open-ended funds generally have redemption rights set by the fund's charter and prospectus; a platform blocking or delaying lawful withdrawals could create liability | Keep it friction only: the user can always proceed in two taps; no time lock. Any voluntary "lock" must be opt-in, explicit and reversible | Infina legal / compliance |
+| 2 | Badge bonus interest | Who pays the bonus, from which entity, and is it a promotion or additional interest on a deposit or fund product? | Interest on bank-deposit products is regulated; a bonus could be read as interest above allowed levels or as a fee rebate that must be disclosed | Frame as a marketing reward funded by Infina with clear conditions; disclose qualification rules and that the reward can change | Infina finance, partner bank or fund manager |
+| 3 | AI suggestions to invest | Does an AI "suggestion" count as investment advice under the Law on Securities 2019 and its implementing decrees? | Investment consulting may be a licensed activity | Position as product information and user-defined rules, not personalised advice; show risk warnings and suitability checks; check Infina's licence scope | Infina legal |
+| 4 | Onboarding quiz, behaviour profile, dashboard | How is personal and financial data collected, used and kept? | Decree 13/2023/NĐ-CP on personal data protection requires lawful basis and consent, and treats some financial and account information as sensitive; profiling spending emotion adds to this | Purpose-limited collection, explicit consent for profiling, ability to delete data, no use of emotional profiles for marketing without consent | Infina DPO / legal |
+| 5 | Gamification and badges | Could incentives be seen as misleading or pressuring consumers? | The Law on Protection of Consumers' Rights 2023 and advertising rules require clear, non-misleading terms | Show real conditions for each badge; avoid urgency language and loss-framed streak messaging; no guaranteed-return claims | Infina legal / marketing |
+| 6 | Target age 18-25, including students near 18 | Are there under-18 users or unclear capacity? | Financial products for minors need additional consent and checks | Age gate and eKYC; block under-18 until Infina's policy says otherwise | Infina compliance |
+| 7 | Using competitor names and screenshots in the public repo | Are logos and app screenshots reusable? | Third-party IP and competition-rule confidentiality | Remove screenshots and any non-public numbers; cite sources instead | Team + competition organiser |
+
+## What I would not claim
+That any of the above is compliant today. The right deliverable at this stage is a clean list of questions for Infina's legal and compliance team, which is what this page is.
